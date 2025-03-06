@@ -1,0 +1,180 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fc2323;
+    color: #fff;
+    padding: 5px 0;
+}
+    
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 80px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.5s ;
+}
+
+.nav-links a:hover {
+    color: #000000;
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+.about,
+.services,
+.contact {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+}
+
+
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.about h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+
+.services {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 15px;
+    color: #666;
+}
+
+
+.contact {
+    padding: 4px 2px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.contact p {
+    margin-bottom: 15px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact input,
+.contact textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.contact button {
+    background-color: #f84949;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius:10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #ff0000;
+}
+
+
+footer {
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    font-weight: 700;
+}

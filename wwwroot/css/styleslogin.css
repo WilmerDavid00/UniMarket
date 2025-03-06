@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+button {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+}
+    text-align: center;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-container input[type="text"]:focus,
+.form-container input[type="password"]:focus{
+    border-color: #ff0000;
+    outline: none;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f84949;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #ff0202;
+}
+
+.form-container p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #000000;
+}
+
+.form-container p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form-container p a:hover {
+    text-decoration: underline;
+}

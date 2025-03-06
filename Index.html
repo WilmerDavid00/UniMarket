@@ -4,15 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UniMarke</title>
-    <link rel="stylesheet" href="/wwwroot/css/style.css">
+    <link rel="stylesheet" href="/UniMarket-main/wwwroot/css/stylesindex.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Bienvenido a UniMarke</h1>
-        <div class="buttons">
-            <a href="/Views/User/login.html" class="btn">Ingresar</a>
-            <a href="/Views/User/register.html" class="btn">Registrarse</a>
-        </div>
-    </div>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/UniMarket-main/wwwroot/image/logo.png" alt="UniMarke Logo">
+                <h1>UniMarke</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">Acerca de</a></li>
+                <li><a href="#services" class="nav-link">Servicios</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="about hidden">
+            <h2>Acerca de UniMarke</h2>
+            <p>UniMarke es una plataforma diseñada para estudiantes emprendedores que desean promocionar y vender sus productos o servicios dentro de la comunidad universitaria. Facilitamos la conexión entre vendedores y compradores, ofreciendo herramientas para la gestión eficiente de productos y transacciones.</p>
+        </section>
+
+        <section id="services" class="services hidden">
+            <h2>Nuestros Servicios</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <h3>Promoción de Productos</h3>
+                    <p>Llega a más clientes dentro de tu universidad con nuestras herramientas de promoción.</p>
+                </div>
+                <div class="card">
+                    <h3>Ventas Seguras</h3>
+                    <p>Realiza transacciones seguras y confiables con otros estudiantes.</p>
+                </div>
+                <div class="card">
+                    <h3>Gestión de Inventario</h3>
+                    <p>Administra tus productos de manera eficiente con nuestra plataforma.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact hidden">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta? ¡Contáctanos!</p>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Nombre" required>
+                <input type="email" id="email" placeholder="Correo electrónico" required>
+                <textarea id="message" placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy: 2025 UniMarke. Todos los derechos son reservados.</p>
+    </footer>
+
+    <script src="/UniMarket-main/wwwroot/js/index.js"></script>
 </body>
 </html>
