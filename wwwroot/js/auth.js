@@ -4,7 +4,10 @@ document.getElementById("registerForm").addEventListener("submit", function(e) {
         method: "POST",
         body: JSON.stringify({
             name: document.getElementById("name").value,
+            lastname: document.getElementById("lastname").value,
+            number: document.getElementById("number").value,
             email: document.getElementById("email").value,
+            user: document.getElementById("user").value,
             password: document.getElementById("password").value
         }),
         headers: { "Content-Type": "application/json" }
