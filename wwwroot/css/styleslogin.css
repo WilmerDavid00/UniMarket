@@ -20,6 +20,15 @@ body {
     text-align: center;
 }
 
+.mensaje-exito {
+    color: #000000;
+    padding: 10px;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
 button {
     background-color: #000;
     color: white;
